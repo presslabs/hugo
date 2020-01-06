@@ -70,6 +70,9 @@ require (
 	gopkg.in/yaml.v2 v2.2.2
 )
 
-replace github.com/markbates/inflect => github.com/markbates/inflect v0.0.0-20171215194931-a12c3aec81a6
+replace (
+	github.com/markbates/inflect => github.com/markbates/inflect v0.0.0-20171215194931-a12c3aec81a6
+	github.com/russross/blackfriday => github.com/presslabs/blackfriday v1.5.3-0.20191220094952-a665bda3293e
+)
 
 go 1.12
